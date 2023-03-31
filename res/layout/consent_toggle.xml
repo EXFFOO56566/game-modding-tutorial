@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:gravity="center" android:id="@id/consentToggleRelativeLayout" android:background="@color/ConsentDialogToggleBackground" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <LinearLayout android:orientation="horizontal" android:id="@id/consentDialogLinearLayout" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageButton android:id="@id/consentToggleImageButton" android:background="@android:color/transparent" android:layout_width="30.0dip" android:layout_height="fill_parent" android:src="@drawable/ic_easymobile_expand" />
+            <Button android:textStyle="bold" android:textColor="@color/ConsentDialogToggleTitleColor" android:gravity="center_vertical" android:id="@id/consentToggleButton" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="fill_parent" android:textAllCaps="false" style="@style/TextAppearance.AppCompat.Medium" />
+        </LinearLayout>
+        <Switch android:id="@id/consentToggleSwitch" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <TextView android:textColor="@android:color/primary_text_light" android:gravity="left" android:id="@id/consentToggleDescriptionText" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="5.0dip" style="@style/TextAppearance.AppCompat.Small" />
+</LinearLayout>

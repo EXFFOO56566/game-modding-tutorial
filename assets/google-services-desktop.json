@@ -1,0 +1,94 @@
+{
+  "project_info": {
+    "project_number": "556789453659",
+    "firebase_url": "https://cognitive-skills.firebaseio.com",
+    "project_id": "cognitive-skills",
+    "storage_bucket": "cognitive-skills.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:556789453659:android:fc4715c502fcfdc8",
+        "android_client_info": {
+          "package_name": "com.tellmewow.senior.attention"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "556789453659-jcdvje068hokpmldrmd60nafkrgu5l71.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcwl5Y-cN3OmRS4QDwYGGR-FG36lG1pJQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:556789453659:android:8f252fe81f64b2d9",
+        "android_client_info": {
+          "package_name": "com.tellmewow.senior.memory"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "556789453659-chu56tb2q41s6vcpfas1s8sm740jl3nu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tellmewow.senior.memory",
+            "certificate_hash": "e789a75dba9fc9c4de11a343ec6f8663a5465f48"
+          }
+        },
+        {
+          "client_id": "556789453659-jcdvje068hokpmldrmd60nafkrgu5l71.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcwl5Y-cN3OmRS4QDwYGGR-FG36lG1pJQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "556789453659-jcdvje068hokpmldrmd60nafkrgu5l71.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "556789453659-4t5dirg3l2jlpg880aegarlphbr5cjrs.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.tellmewow.senior.attention"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      },
+      "admob_app_id": "ca-app-pub-8143212237299826~2133716667"
+    }
+  ],
+  "configuration_version": "1"
+}
